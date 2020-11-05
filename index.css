@@ -1,0 +1,36 @@
+body {
+font-family : Verdana,sans-serif;
+font-size:12px; background-color:silver;
+}
+header,footer,nav,main,aside {
+border:1px solid grey; margin :5px; padding:5px;
+}
+header {
+background-color:bisque;
+}
+nav{
+background-color:tomato; 
+}
+.menu{
+	color:white;
+	
+}
+
+main {
+float :left;
+width:60%;
+background-color:;
+}
+aside{
+float:left;
+width:30%;
+background-color:bisque;
+
+}
+footer {
+background-color:bisque; 
+clear :both;
+}
+
+
+

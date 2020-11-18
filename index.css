@@ -3,7 +3,7 @@ font-family : Verdana,sans-serif;
 font-size:12px; background-color:silver;
 }
 header,footer,nav,main,aside {
-border:0px solid grey; margin :5px; padding:5px;
+border:0px ; margin :5px; padding:5px;
 }
 header {
 background-color:bisque;

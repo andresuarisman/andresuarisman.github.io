@@ -21,7 +21,7 @@ background-color:bisque
 main {
 float :left;
 width:60%;
-background-color:;
+background-color:bisque;
 }
 aside{
 float:left;
@@ -30,7 +30,7 @@ background-color:bisque;
 
 }
 footer {
-background-color:bisque; 
+background-color:tomato; 
 clear :both;
 }
 

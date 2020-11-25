@@ -1,0 +1,240 @@
+
+body{
+    background-color: #2d2a2a;
+	margin : 0px;
+	padding : 0px;
+	
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 2);
+    padding: 0px 5%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    letter-spacing: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li a {
+    
+    font-weight: bold;
+    font-family: myriad pro regular;
+    color: #121214;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.logo {
+    font-family: Poppins;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+}
+
+nav ul li a:hover{
+    background-color: dodgerblue;
+    color: floralwhite !important;
+    font-weight: 7000;
+    transition: all ease0.4s;
+}
+
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
+    
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #c4c3c3;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.text-container p:nth-child(3){
+    font-family:myriad pro regular;
+    color: #bdbdbd;
+    font-size: 30px;
+}
+.text-container p:nth-child(4){
+    font-family:myriad pro regular;
+    font-weight: bold;
+    color: rgb(231, 231, 231);
+    font-size: 20px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
+}
+.model{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 73%;
+    transform: translate(-73%);
+    box-shadow: 2px 2px 12px rgba(0,0,0, 2);
+    
+}
+.about-container{
+    width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12 px rgba(0, 0,0, 2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.about-container img {
+    height: 250px;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 2);
+}
+.abou-text {
+    width: 550px;
+    color: #403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.about-text p:nth-child(1) {
+    color: dodgerblue;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
+}
+.about-text p:nth-child(2), .about-text p:nth-child(3), .about-text p:nth-child(4), .about-text p:nth-child(5),.about-text p:nth-child(6){
+    color: #1a1a1a;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.data-container{
+    position: absolute;
+    left: 25%;
+    top: 120%;
+    transform: translate(-20%,-120%);
+    width: 80%;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12 px rgba(0, 0,0, 2);
+    
+    margin: -7% auto 20px auto;
+    
+    
+}
+.data-container h2{
+    background-color: dodgerblue;
+    align-items:center;
+    color: floralwhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.data-form {
+    color:floralwhite;
+    background-color:dodgerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+footer{
+    background-color: floralwhite;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.social-icon a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px 10px;
+    border-radius: 50%;
+    
+}
+.fb{
+    width: 40px;
+    height: 40px;
+    margin: 20 px 10px;
+}
+.ig {
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px;
+}
+.yt{
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px;
+}
+
+.social-icon{
+    display: flex;
+
+}
+.copyright{
+    color: #565555;
+    font-size: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.social-icon i{
+    columns: #000000;;
+}
+.social-icon a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0,0, 2);
+    transition: all ease 0.5s;
+
+}
+
+.social-icon a:hover i{
+    color:#ffffff;
+  
+    transition: all ease 0.5;
+
+}

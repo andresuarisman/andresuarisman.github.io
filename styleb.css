@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+section {
+    width: 100%;
+    height: 750px;
+    background-color: #9A7A59;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #5F5F5F;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0,5);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.logo{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.profil img{
+    margin: 30px;
+    width: 200px;
+    border: 2px solid;
+    
+}
+.about{
+    width: 80%;
+    height: 300px;
+    background-color: #575555;
+    border-radius: 20px;
+    box-shadow:2px 2px 12px rgba(0, 0, 0,5);
+    display: flex;
+    margin: 0% auto 20px auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+   
+    text-align: center;
+}
+.about-text p:nth-child(1){
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 40px;
+   align-items: center;
+    
+}
+.about-text p:nth-child(2),.about-text p:nth-child(3),.about-text p:nth-child(4){
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.box-1,.box-2,.box-3{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0,5);
+    text-align: center;
+    border-radius: 20px;
+    margin: 0% auto 20px auto;
+    justify-content: center;
+    
+}
+.box{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.box-1{
+    background-color: tomato;
+    text-align: center;
+}
+.box-2{
+    background-color: #BD7DCF;
+}
+.box-3{
+    background-color: dodgerblue;
+}
+
+.box-1 p,
+.box-2 p,
+.box-3 p {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    margin: 50% auto 20px 0px;
+    font-size: 23px;
+}
+.box :hover{
+    background-color: #575555;
+}
+.footer {
+    width: 100%;
+    height: 233px;
+    background-color: #575555;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.medsos a{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    margin: 20px 10px;
+}
+.medsos {
+    display: flex;
+}
+.fb{
+    width: 40px;
+    height: 40px;
+   
+}
+.yt{
+    width: 40px;
+    height: 40px;
+}
+.ig{
+    width: 40px;
+    height: 40px;
+   
+}
+
+.f-text{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.medsos a:hover{
+    background-color: black;
+}
+
